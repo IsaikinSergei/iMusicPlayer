@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Alamofire
 
 struct TrackModel {
     var trackName: String

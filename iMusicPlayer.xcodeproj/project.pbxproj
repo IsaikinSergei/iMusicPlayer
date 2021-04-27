@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		EA71FD552635FB1600AEC5C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA71FD532635FB1600AEC5C5 /* LaunchScreen.storyboard */; };
 		EA71FD5E2635FEAF00AEC5C5 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71FD5D2635FEAF00AEC5C5 /* MainTabBarController.swift */; };
 		EA71FD65263609FA00AEC5C5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71FD64263609FA00AEC5C5 /* SearchViewController.swift */; };
+		EA71FD6E2638AF7600AEC5C5 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71FD6D2638AF7500AEC5C5 /* SearchResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		EA71FD562635FB1600AEC5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA71FD5D2635FEAF00AEC5C5 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		EA71FD64263609FA00AEC5C5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		EA71FD6D2638AF7500AEC5C5 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		FCFD4AAD32A8878150BE28C6 /* Pods-iMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMusicPlayer.release.xcconfig"; path = "Target Support Files/Pods-iMusicPlayer/Pods-iMusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,7 +54,6 @@
 				1E88FC8D88E3EC54FCA2FAC5 /* Pods-iMusicPlayer.debug.xcconfig */,
 				FCFD4AAD32A8878150BE28C6 /* Pods-iMusicPlayer.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -90,6 +91,7 @@
 				EA71FD4C2635FB1200AEC5C5 /* ViewController.swift */,
 				EA71FD64263609FA00AEC5C5 /* SearchViewController.swift */,
 				EA71FD5D2635FEAF00AEC5C5 /* MainTabBarController.swift */,
+				EA71FD6D2638AF7500AEC5C5 /* SearchResponse.swift */,
 				EA71FD4E2635FB1200AEC5C5 /* Main.storyboard */,
 				EA71FD512635FB1600AEC5C5 /* Assets.xcassets */,
 				EA71FD532635FB1600AEC5C5 /* LaunchScreen.storyboard */,
@@ -214,6 +216,7 @@
 			files = (
 				EA71FD65263609FA00AEC5C5 /* SearchViewController.swift in Sources */,
 				EA71FD4D2635FB1200AEC5C5 /* ViewController.swift in Sources */,
+				EA71FD6E2638AF7600AEC5C5 /* SearchResponse.swift in Sources */,
 				EA71FD492635FB1200AEC5C5 /* AppDelegate.swift in Sources */,
 				EA71FD5E2635FEAF00AEC5C5 /* MainTabBarController.swift in Sources */,
 				EA71FD4B2635FB1200AEC5C5 /* SceneDelegate.swift in Sources */,

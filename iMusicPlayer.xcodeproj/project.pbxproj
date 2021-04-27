@@ -17,6 +17,7 @@
 		EA71FD5E2635FEAF00AEC5C5 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71FD5D2635FEAF00AEC5C5 /* MainTabBarController.swift */; };
 		EA71FD65263609FA00AEC5C5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71FD64263609FA00AEC5C5 /* SearchViewController.swift */; };
 		EA71FD6E2638AF7600AEC5C5 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71FD6D2638AF7500AEC5C5 /* SearchResponse.swift */; };
+		EA71FD722638BB5D00AEC5C5 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71FD712638BB5D00AEC5C5 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		EA71FD5D2635FEAF00AEC5C5 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		EA71FD64263609FA00AEC5C5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		EA71FD6D2638AF7500AEC5C5 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		EA71FD712638BB5D00AEC5C5 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		FCFD4AAD32A8878150BE28C6 /* Pods-iMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMusicPlayer.release.xcconfig"; path = "Target Support Files/Pods-iMusicPlayer/Pods-iMusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +92,7 @@
 				EA71FD4A2635FB1200AEC5C5 /* SceneDelegate.swift */,
 				EA71FD4C2635FB1200AEC5C5 /* ViewController.swift */,
 				EA71FD64263609FA00AEC5C5 /* SearchViewController.swift */,
+				EA71FD712638BB5D00AEC5C5 /* NetworkService.swift */,
 				EA71FD5D2635FEAF00AEC5C5 /* MainTabBarController.swift */,
 				EA71FD6D2638AF7500AEC5C5 /* SearchResponse.swift */,
 				EA71FD4E2635FB1200AEC5C5 /* Main.storyboard */,
@@ -220,6 +223,7 @@
 				EA71FD492635FB1200AEC5C5 /* AppDelegate.swift in Sources */,
 				EA71FD5E2635FEAF00AEC5C5 /* MainTabBarController.swift in Sources */,
 				EA71FD4B2635FB1200AEC5C5 /* SceneDelegate.swift in Sources */,
+				EA71FD722638BB5D00AEC5C5 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

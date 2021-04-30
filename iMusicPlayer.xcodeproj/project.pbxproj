@@ -26,6 +26,8 @@
 		EA71FD65263609FA00AEC5C5 /* SearchMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71FD64263609FA00AEC5C5 /* SearchMusicViewController.swift */; };
 		EA71FD6E2638AF7600AEC5C5 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71FD6D2638AF7500AEC5C5 /* SearchResponse.swift */; };
 		EA71FD722638BB5D00AEC5C5 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71FD712638BB5D00AEC5C5 /* NetworkService.swift */; };
+		EAC8EC9F263C8F1E0069F28F /* TrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAC8EC9E263C8F1E0069F28F /* TrackCell.xib */; };
+		EAC8ECA1263C8F8F0069F28F /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC8ECA0263C8F8F0069F28F /* TrackCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		EA71FD64263609FA00AEC5C5 /* SearchMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMusicViewController.swift; sourceTree = "<group>"; };
 		EA71FD6D2638AF7500AEC5C5 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		EA71FD712638BB5D00AEC5C5 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		EAC8EC9E263C8F1E0069F28F /* TrackCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackCell.xib; sourceTree = "<group>"; };
+		EAC8ECA0263C8F8F0069F28F /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
 		FCFD4AAD32A8878150BE28C6 /* Pods-iMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMusicPlayer.release.xcconfig"; path = "Target Support Files/Pods-iMusicPlayer/Pods-iMusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +90,7 @@
 		EA28F7D62639D8C0001C48B0 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				EAC8EC9D263C8EC30069F28F /* Cell */,
 				EA28F7F42639DCD2001C48B0 /* SearchViewController.storyboard */,
 				EA28F7EA2639DA1E001C48B0 /* SearchViewController.swift */,
 				EA28F7EB2639DA1E001C48B0 /* SearchInteractor.swift */,
@@ -100,6 +105,7 @@
 		EA28F7E52639D988001C48B0 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				EAC8ECA2263C97A20069F28F /* Models */,
 				EA71FD712638BB5D00AEC5C5 /* NetworkService.swift */,
 			);
 			path = Services;
@@ -141,7 +147,6 @@
 				EA28F7D62639D8C0001C48B0 /* Search */,
 				EA71FD4C2635FB1200AEC5C5 /* ViewController.swift */,
 				EA71FD64263609FA00AEC5C5 /* SearchMusicViewController.swift */,
-				EA71FD6D2638AF7500AEC5C5 /* SearchResponse.swift */,
 				EA28F7F82639E110001C48B0 /* Helpers */,
 				EA71FD4E2635FB1200AEC5C5 /* Main.storyboard */,
 				EA71FD512635FB1600AEC5C5 /* Assets.xcassets */,
@@ -149,6 +154,23 @@
 				EA71FD562635FB1600AEC5C5 /* Info.plist */,
 			);
 			path = iMusicPlayer;
+			sourceTree = "<group>";
+		};
+		EAC8EC9D263C8EC30069F28F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EAC8EC9E263C8F1E0069F28F /* TrackCell.xib */,
+				EAC8ECA0263C8F8F0069F28F /* TrackCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EAC8ECA2263C97A20069F28F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EA71FD6D2638AF7500AEC5C5 /* SearchResponse.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA71FD552635FB1600AEC5C5 /* LaunchScreen.storyboard in Resources */,
+				EAC8EC9F263C8F1E0069F28F /* TrackCell.xib in Resources */,
 				EA71FD522635FB1600AEC5C5 /* Assets.xcassets in Resources */,
 				EA28F7F52639DCD2001C48B0 /* SearchViewController.storyboard in Resources */,
 				EA71FD502635FB1200AEC5C5 /* Main.storyboard in Resources */,
@@ -271,6 +294,7 @@
 				EA71FD4D2635FB1200AEC5C5 /* ViewController.swift in Sources */,
 				EA71FD6E2638AF7600AEC5C5 /* SearchResponse.swift in Sources */,
 				EA28F7F22639DA1E001C48B0 /* SearchInteractor.swift in Sources */,
+				EAC8ECA1263C8F8F0069F28F /* TrackCell.swift in Sources */,
 				EA71FD492635FB1200AEC5C5 /* AppDelegate.swift in Sources */,
 				EA71FD5E2635FEAF00AEC5C5 /* MainTabBarController.swift in Sources */,
 				EA28F7EE2639DA1E001C48B0 /* SearchWorker.swift in Sources */,

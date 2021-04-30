@@ -152,6 +152,7 @@
 				EA71FD512635FB1600AEC5C5 /* Assets.xcassets */,
 				EA71FD532635FB1600AEC5C5 /* LaunchScreen.storyboard */,
 				EA71FD562635FB1600AEC5C5 /* Info.plist */,
+				EAC8ECA3263CA2EA0069F28F /* Screenshots */,
 			);
 			path = iMusicPlayer;
 			sourceTree = "<group>";
@@ -171,6 +172,14 @@
 				EA71FD6D2638AF7500AEC5C5 /* SearchResponse.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		EAC8ECA3263CA2EA0069F28F /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Screenshots;
+			path = ../Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

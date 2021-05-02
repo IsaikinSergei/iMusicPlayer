@@ -29,7 +29,7 @@
 		EAC8EC9F263C8F1E0069F28F /* TrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAC8EC9E263C8F1E0069F28F /* TrackCell.xib */; };
 		EAC8ECA1263C8F8F0069F28F /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC8ECA0263C8F8F0069F28F /* TrackCell.swift */; };
 		EAC8ECA6263DFD5E0069F28F /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC8ECA5263DFD5E0069F28F /* FooterView.swift */; };
-		EAC8ECAE263F38250069F28F /* TracDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAC8ECAD263F38250069F28F /* TracDetailView.xib */; };
+		EAC8ECAE263F38250069F28F /* TrackDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAC8ECAD263F38250069F28F /* TrackDetailView.xib */; };
 		EAC8ECB0263F38350069F28F /* TrackDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC8ECAF263F38350069F28F /* TrackDetailView.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +59,7 @@
 		EAC8EC9E263C8F1E0069F28F /* TrackCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackCell.xib; sourceTree = "<group>"; };
 		EAC8ECA0263C8F8F0069F28F /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
 		EAC8ECA5263DFD5E0069F28F /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
-		EAC8ECAD263F38250069F28F /* TracDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TracDetailView.xib; sourceTree = "<group>"; };
+		EAC8ECAD263F38250069F28F /* TrackDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackDetailView.xib; sourceTree = "<group>"; };
 		EAC8ECAF263F38350069F28F /* TrackDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailView.swift; sourceTree = "<group>"; };
 		FCFD4AAD32A8878150BE28C6 /* Pods-iMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMusicPlayer.release.xcconfig"; path = "Target Support Files/Pods-iMusicPlayer/Pods-iMusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -201,7 +201,7 @@
 		EAC8ECAC263F38080069F28F /* TrackDetailView */ = {
 			isa = PBXGroup;
 			children = (
-				EAC8ECAD263F38250069F28F /* TracDetailView.xib */,
+				EAC8ECAD263F38250069F28F /* TrackDetailView.xib */,
 				EAC8ECAF263F38350069F28F /* TrackDetailView.swift */,
 			);
 			path = TrackDetailView;
@@ -271,7 +271,7 @@
 				EA71FD522635FB1600AEC5C5 /* Assets.xcassets in Resources */,
 				EA28F7F52639DCD2001C48B0 /* SearchViewController.storyboard in Resources */,
 				EA71FD502635FB1200AEC5C5 /* Main.storyboard in Resources */,
-				EAC8ECAE263F38250069F28F /* TracDetailView.xib in Resources */,
+				EAC8ECAE263F38250069F28F /* TrackDetailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

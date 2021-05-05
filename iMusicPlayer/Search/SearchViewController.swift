@@ -51,6 +51,7 @@ class SearchViewController: UIViewController, SearchDisplayLogic {
     
     setupTableView()
     setupSearchBar()
+    searchBar(searchController.searchBar, textDidChange: "Khvaleev")
     
   }
     

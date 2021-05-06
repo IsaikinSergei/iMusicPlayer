@@ -31,6 +31,7 @@
 		EAC8ECA6263DFD5E0069F28F /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC8ECA5263DFD5E0069F28F /* FooterView.swift */; };
 		EAC8ECAE263F38250069F28F /* TrackDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAC8ECAD263F38250069F28F /* TrackDetailView.xib */; };
 		EAC8ECB0263F38350069F28F /* TrackDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC8ECAF263F38350069F28F /* TrackDetailView.swift */; };
+		EAC8ECB2264493660069F28F /* CMTime + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC8ECB1264493660069F28F /* CMTime + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		EAC8ECA5263DFD5E0069F28F /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		EAC8ECAD263F38250069F28F /* TrackDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackDetailView.xib; sourceTree = "<group>"; };
 		EAC8ECAF263F38350069F28F /* TrackDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailView.swift; sourceTree = "<group>"; };
+		EAC8ECB1264493660069F28F /* CMTime + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMTime + Extension.swift"; sourceTree = "<group>"; };
 		FCFD4AAD32A8878150BE28C6 /* Pods-iMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMusicPlayer.release.xcconfig"; path = "Target Support Files/Pods-iMusicPlayer/Pods-iMusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				EA28F7F62639E0F2001C48B0 /* UIViewController + Storyboard.swift */,
+				EAC8ECB1264493660069F28F /* CMTime + Extension.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				EA71FD6E2638AF7600AEC5C5 /* SearchResponse.swift in Sources */,
 				EA28F7F22639DA1E001C48B0 /* SearchInteractor.swift in Sources */,
 				EAC8ECA6263DFD5E0069F28F /* FooterView.swift in Sources */,
+				EAC8ECB2264493660069F28F /* CMTime + Extension.swift in Sources */,
 				EAC8ECA1263C8F8F0069F28F /* TrackCell.swift in Sources */,
 				EA71FD492635FB1200AEC5C5 /* AppDelegate.swift in Sources */,
 				EA71FD5E2635FEAF00AEC5C5 /* MainTabBarController.swift in Sources */,

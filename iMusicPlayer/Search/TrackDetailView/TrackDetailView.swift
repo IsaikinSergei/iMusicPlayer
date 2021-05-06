@@ -46,6 +46,19 @@ class TrackDetailView: UIView {
         }
     }
     
+    private func observePlayerCurrentTime() {
+        
+        let interval = CMTimeMake(value: 1, timescale: 2)
+        player.addPeriodicTimeObserver(forInterval: interval, queue: .main) { [weak self] (time) in
+            self?.currentTimeLabel.text = time.toDisplayString()
+            
+            // устанавливаем значение оставшегося времени трэка для лэйбла
+            let durationTime = self?.player.currentItem?.duration
+            let currentDurationText = ((durationTime ?? CMTimeMake(value: 1, timescale: 1)) - time).toDisplayString()
+            self?.durationLabel.text = "-\(currentDurationText)"
+        }
+    }
+    
     deinit {
         print("TrackDetailView memory being reclaimed...")
     }
@@ -57,6 +70,7 @@ class TrackDetailView: UIView {
         authorTitleLabel.text = viewModel.artistName
         playTrack(previewUrl: viewModel.previewUrl)
         monitorStartTime()
+        observePlayerCurrentTime()
         let string600 = viewModel.iconUrlString?.replacingOccurrences(of: "100x100", with: "600x600")
         guard let url = URL(string: string600 ?? "") else { return }
         trackImageView.sd_setImage(with: url, completed: nil)

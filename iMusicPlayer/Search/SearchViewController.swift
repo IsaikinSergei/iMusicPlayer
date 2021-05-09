@@ -145,6 +145,8 @@ extension SearchViewController: UISearchBarDelegate {
     }
 }
 
+// MARK: - через расширение вызываем методы протокола TrackMovingDelegate у класса SearchViewController и создаем приватный метод который получает следующий/предыдущий трэк по нажатию на кнопку вперед/назад
+
 extension SearchViewController: TrackMovingDelegate {
     
     private func getTrack(isForwardTrack: Bool) -> SearchViewModel.Cell? {

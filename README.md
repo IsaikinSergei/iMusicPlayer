@@ -3,3 +3,4 @@
 # Screenshots
 ![](https://github.com/IsaikinSergei/iMusicPlayer/blob/master/Screenshots/Снимок%20экрана%202021-05-01%20в%2000.40.36.png?raw=true)
 ![](https://github.com/IsaikinSergei/iMusicPlayer/blob/master/Screenshots/Снимок%20экрана%202021-05-01%20в%2000.40.52.png?raw=true)
+![](https://github.com/IsaikinSergei/iMusicPlayer/blob/master/Screenshots/Снимок%20экрана%202021-06-25%20в%2023.56.52.png?raw=true)

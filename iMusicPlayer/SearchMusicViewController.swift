@@ -48,6 +48,13 @@ class SearchMusicViewController: UITableViewController {
         cell.imageView?.image = #imageLiteral(resourceName: "image")
         return cell
     }
+    //не получается удалить ячейку
+//    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+//        if editingStyle == .delete {
+//            tracks.remove(at: indexPath.row)
+//            self.tableView.reloadData()
+//        }
+//    }
 }
 
 extension SearchMusicViewController: UISearchBarDelegate {

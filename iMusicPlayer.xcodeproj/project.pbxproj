@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C32D1CB7C0FB086F39E6E352 /* Pods_iMusicPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1AA7F0B65AFE8EAF5287AB /* Pods_iMusicPlayer.framework */; };
+		EA22A8E4268A5D5200A77108 /* Снимок экрана 2021-06-28 в 23.39.59.png in Resources */ = {isa = PBXBuildFile; fileRef = EA22A8E3268A5D5200A77108 /* Снимок экрана 2021-06-28 в 23.39.59.png */; };
 		EA28F7ED2639DA1E001C48B0 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA28F7E62639DA1E001C48B0 /* SearchPresenter.swift */; };
 		EA28F7EE2639DA1E001C48B0 /* SearchWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA28F7E72639DA1E001C48B0 /* SearchWorker.swift */; };
 		EA28F7EF2639DA1E001C48B0 /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA28F7E82639DA1E001C48B0 /* SearchRouter.swift */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		1E88FC8D88E3EC54FCA2FAC5 /* Pods-iMusicPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMusicPlayer.debug.xcconfig"; path = "Target Support Files/Pods-iMusicPlayer/Pods-iMusicPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		5B1AA7F0B65AFE8EAF5287AB /* Pods_iMusicPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMusicPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA22A8E3268A5D5200A77108 /* Снимок экрана 2021-06-28 в 23.39.59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Снимок экрана 2021-06-28 в 23.39.59.png"; sourceTree = "<group>"; };
 		EA28F7E62639DA1E001C48B0 /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
 		EA28F7E72639DA1E001C48B0 /* SearchWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWorker.swift; sourceTree = "<group>"; };
 		EA28F7E82639DA1E001C48B0 /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 			children = (
 				EAC8781B26866CEA003CA1C4 /* Снимок экрана 2021-06-25 в 23.56.52.png */,
 				EAC8781C26866CEA003CA1C4 /* Снимок экрана 2021-06-25 в 23.57.26.png */,
+				EA22A8E3268A5D5200A77108 /* Снимок экрана 2021-06-28 в 23.39.59.png */,
 				EA4F3A93264716000091E2DC /* Снимок экрана 2021-05-08 в 22.52.46.png */,
 				EA4F3A92264716000091E2DC /* Снимок экрана 2021-05-08 в 22.53.20.png */,
 			);
@@ -286,6 +289,7 @@
 				EAC8EC9F263C8F1E0069F28F /* TrackCell.xib in Resources */,
 				EAC8781E26866CEA003CA1C4 /* Снимок экрана 2021-06-25 в 23.57.26.png in Resources */,
 				EAC8781D26866CEA003CA1C4 /* Снимок экрана 2021-06-25 в 23.56.52.png in Resources */,
+				EA22A8E4268A5D5200A77108 /* Снимок экрана 2021-06-28 в 23.39.59.png in Resources */,
 				EA71FD522635FB1600AEC5C5 /* Assets.xcassets in Resources */,
 				EA28F7F52639DCD2001C48B0 /* SearchViewController.storyboard in Resources */,
 				EA71FD502635FB1200AEC5C5 /* Main.storyboard in Resources */,
